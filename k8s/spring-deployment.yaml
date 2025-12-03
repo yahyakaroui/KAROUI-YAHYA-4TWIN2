@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: spring-app
-          image: yahyakaroui/devopsproject4twin2:latest   # <<< TON IMAGE
+          image: yahyakaroui/devopsproject4twin2:build-73          # <<< TON IMAGE
           ports:
             - containerPort: 8089
           envFrom:
