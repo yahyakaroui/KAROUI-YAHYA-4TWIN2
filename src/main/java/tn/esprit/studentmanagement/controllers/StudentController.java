@@ -31,5 +31,9 @@ IStudentService studentService;
 
     @DeleteMapping("/deleteStudent/{id}")
     public void deleteStudent(@PathVariable Long id) { studentService.deleteStudent(id); }
+    @GetMapping("/test")
+    public String test() {
+        return "Version Kubernetes OK - " + System.currentTimeMillis();
+    }
 
 }
