@@ -16,7 +16,7 @@ data:
         metrics_path: "/actuator/prometheus"
         static_configs:
           - targets:
-              - "http://localhost:8089"
+              - "spring-service:8089"
 
 
 ---
